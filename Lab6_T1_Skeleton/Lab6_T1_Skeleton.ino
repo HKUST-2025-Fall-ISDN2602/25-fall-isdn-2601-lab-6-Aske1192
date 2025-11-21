@@ -71,7 +71,7 @@ void loop() {
     command = Serial.readStringUntil('\n'); // Read the incoming command
     command.trim(); // Remove any leading or trailing whitespace
 
-    int speed = 96; // choose 0–255, adjust as needed
+    int speed = 64; // choose 0–255, adjust as needed
 
     if (command == "F") {
       /* Forward rotation direction */
